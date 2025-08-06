@@ -9,10 +9,10 @@ const client = redis.createClient({ url: 'redis://redis:6379' });
 
 client.connect().catch(console.error);
 
-app.get('/hit', async (req, res) => {
-  let count = await client.incr('hits');
-  res.send(`This page has been visited ${count} times`);
+app.get('/hit', (req, res) => {
+  res.send('Hello from the custom app container!');
 });
+
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`);
