@@ -49,3 +49,6 @@ docker network rm mynet
 * [Redis Docker Image](https://hub.docker.com/_/redis)
 
 * [Node.js Docker Best Practices](https://github.com/nodejs/docker-node/blob/main/README.md)
+
+## 🧑‍💻 Author:
+Built with ❤️ by [dchak2023](https://github.com/dchak2023)
